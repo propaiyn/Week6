@@ -1,0 +1,7 @@
+one object = many forms e.g. parent class referance refer to a child class object
+We can check if a Java object is polymorphic by creating instanceof tests, if an object can pass more than one of these "is a" tests then it is considered to be polymorphic.
+However in Java since every class inherits from the Object class they will always pass at least two "is a" tests since they will be an instance of their class and the Object class, therefore all Java objects are considered to be polymorphic.
+
+same method call can have different values because of the refrence of an object
+    Useful to use the same method call with different values
+        e.g. database with different eukaryota with the same method but with different object being refrenced thus different values returned

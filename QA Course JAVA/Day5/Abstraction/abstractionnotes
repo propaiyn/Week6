@@ -1,0 +1,11 @@
+ Abstraction = you should hide the implementation details between modules, and only share essential functionality.
+i.e. Don't need to show the implementation details to every class or method.
+
+    can use the abstract class or method
+        abstract classes cannot be instantiated (no objects ) BUT can be inherited from
+        abstract methods (can only exits in abstract classes and haver no methods which are implemented in subclasses
+
+if abstract methods, class itself needs to be abstract (Empty method)
+    can included normal methods as well
+    hides certain details from user and only shows what is needed
+    

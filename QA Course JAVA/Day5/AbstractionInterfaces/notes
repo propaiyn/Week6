@@ -1,0 +1,9 @@
+What if you had a class that needed to extend functionality from more than one place?
+
+Java doesn't allow for the use of multiple superclasses - only one is allowed.
+
+
+However, we can still accomplish abstraction with interfaces:
+
+they are completely abstract by design (no methods in an interface have bodies)
+you can implement multiple interfaces
